@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UserPortalApplication",
+            "request": "launch",
+            "mainClass": "src.main.java.com.devglan.userportal.UserPortalApplication",
+            "projectName": "angular_515e4430"
+        }
+    ]
+}
