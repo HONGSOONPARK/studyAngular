@@ -11,12 +11,12 @@ export class ProductListComponent {
   products = products;
 
   share() {
-    window.alert('The product has been shared!');
+    window.alert('상품이 공유되었습니다.');
   }
 
 
   onNotify() {
-    window.alert('You will be notified when the product goes on sale');
+    window.alert('세일 할때 알려드릴게요.');
   }
 
 }

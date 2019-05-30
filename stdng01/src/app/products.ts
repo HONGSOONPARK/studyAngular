@@ -1,18 +1,18 @@
 export const products = [
     {
-      name: 'Phone XL',
+      name: '갤럭시10',
       price: 799,
-      description: 'A large phone with one of the best screens'
+      description: '삼성 갤럭시10, 5g입니다.'
     },
     {
-      name: 'Phone Mini',
+      name: '아이폰8',
       price: 699,
-      description: 'A great phone with one of the best cameras'
+      description: '애플 아이폰8, 4g입니다.'
     },
     {
-      name: 'Phone Standard',
+      name: 'LG V40',
       price: 299,
-      description: ''
+      description: 'LG V40, 4g입니다.'
     }
   ];
   

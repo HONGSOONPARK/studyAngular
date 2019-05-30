@@ -1,14 +1,14 @@
 [
     {
-      "type": "Overnight",
+      "type": "총알배송",
       "price": 25.99
     },
     {
-      "type": "2-Day",
+      "type": "일반배송",
       "price": 9.99
     },
     {
-      "type": "Postal",
+      "type": "우편배송",
       "price": 2.99
     }
   ]
