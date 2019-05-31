@@ -1,2 +1,7 @@
 <a [routerLink]="['/']"><h1>{{ title }}</h1></a>
-<app-heroes></app-heroes>
+<nav>
+  <a routerLink="/dashboard">게시판</a>
+  <a routerLink="/heroes">영웅들</a>
+</nav>
+<router-outlet></router-outlet>
+<app-messages></app-messages>

@@ -2,9 +2,12 @@
   <h2>{{hero.name | uppercase}}</h2>
   <div><span>Id: </span>{{hero.id}}</div>
   <div>
-    <label>name:
-      <input [(ngModel)]="hero.name" placeholder="name"/>
+    <label>이름:
+      <input [(ngModel)]="hero.name" placeholder="이름"/>
     </label>
   </div>
+
+  <button (click)="goBack()">뒤로가기</button>
+  <button (click)="save()">저장</button>
 
 </div>
