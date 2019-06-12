@@ -1,7 +1,15 @@
-<a [routerLink]="['/']"><h1>{{ title }}</h1></a>
-<nav>
-  <a routerLink="/dashboard">게시판</a>
-  <a routerLink="/heroes">영웅들</a>
-</nav>
-<router-outlet></router-outlet>
-<app-messages></app-messages>
+<header>
+  <nav>
+    <ul>
+      <li routerLink="/dashboard">게시판</li>
+      <li routerLink="/heroes">영웅들</li>
+    </ul>
+  </nav>
+</header>
+<div class="contents">
+  <div class="wrap">
+      <a [routerLink]="['/']"><h1>{{ title }}</h1></a>
+      <router-outlet></router-outlet>
+      <app-messages></app-messages>
+  </div>
+</div>

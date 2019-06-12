@@ -1,28 +1,106 @@
-/* You can add global styles to this file, and also import other style files */
+/* AppComponent's private CSS styles */
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
-  color: #369;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 250%;
-}
-h2, h3 {
-  color: #444;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
-}
-body {
-  margin: 2em;
-}
-body, input[type="text"], button {
-  color: #888;
-  font-family: Cambria, Georgia;
-}
-/* everywhere else */
-* {
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: #999;
+  margin-top:0;
+  /* margin-bottom: 0; */
 }
 
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 0;
+}
 
-a {
-  cursor: pointer;
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 17em;
+  background-color: sienna;
+}
+
+header nav{
+  margin-top:250px;
+
+}
+
+header nav a {
+  padding: 5px 10px;
   text-decoration: none;
+  /* margin-top: 10px; */
+  /* display: inline-block; */
+  /* background-color: #eee; */
+  /* border-radius: 4px; */
+  /* padding: 0; */
+}
+
+/* header nav a:visited, a:link {
+  color: #607d8b;
+}
+
+header nav a:hover {
+  color: #039be5;
+  background-color: #cfd8dc;
+}
+
+header nav a.active {
+  color: #039be5;
+} */
+
+
+header nav ul{
+
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li {
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em .5em .5em 0  ;
+
+  padding: .3em 0 ;
+  height: 1.6em;
+  border-radius: 4px;
+}
+
+header nav ul li.selected:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}
+
+header nav ul li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+
+
+.contents{
+  position: relative;
+  /* min-height: 100vh; */
+  height: 100vh;
+  top: 0;
+  margin-left: 17em;
+  background-color: cornsilk;
+}
+
+
+.contents .wrap{
+  height: 100vh;
+  margin: 0 3em 0 3em;
+  /* padding: 5em; */
+  /* background-color:chartreuse; */
+
 }
