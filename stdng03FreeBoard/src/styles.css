@@ -1,0 +1,35 @@
+/* AppComponent's private CSS styles */
+
+body{
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 17em;
+  background-color: aqua;
+
+}
+
+header nav ul li{
+  list-style-type: none;
+}
+
+.contents {
+  background-color:coral;
+  margin-left: 17em;
+  height: 100vh;
+}
+
+/* .contents .main {
+  display: inline-block;
+  margin-left: 17em;
+  background-color: coral;
+
+} */
+
